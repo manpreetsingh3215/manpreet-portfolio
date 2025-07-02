@@ -19,11 +19,11 @@ export default function Home() {
 
   const projects = [
     {
-      title: "OnAir App",
+      title: "IDFC First Bank",
       desc: "Live event streaming app with Chromecast, Bitmovin analytics, and custom video SDKs.",
     },
     {
-      title: "Afriex",
+      title: "tonik Bank",
       desc: "FinTech money transfer platform. Built full-stack features with Node.js, GraphQL, React Native, and integrated end-to-end tests using Detox.",
     },
     {
@@ -31,7 +31,7 @@ export default function Home() {
       desc: "Handled mobile development for India’s top gifting platform. Built features, fixed critical issues, and led a 10-engineer team.",
     },
     {
-      title: "Toffee Insurance App",
+      title: "weatherman App",
       desc: "Built byte-sized insurance purchase experience with full identity verification using custom camera/KYC tools.",
     },
   ];
