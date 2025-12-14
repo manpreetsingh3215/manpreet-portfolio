@@ -132,7 +132,7 @@ export default function Home() {
               specializing in <strong>React Native</strong>,{" "}
               <strong>Expo</strong>, and{" "}
               <strong>cross-platform development</strong> for iOS, Android, and
-              Smart TV (tvOS). With over <strong>10 years in tech</strong> and
+              Smart TV (tvOS). With over <strong>9 years in tech</strong> and
               8+ years building mobile-first experiences, I create sleek,
               scalable, and high-performance apps users love.
             </p>
