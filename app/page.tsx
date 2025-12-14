@@ -20,19 +20,43 @@ export default function Home() {
   const projects = [
     {
       title: "IDFC First Bank",
-      desc: "Live event streaming app with Chromecast, Bitmovin analytics, and custom video SDKs.",
+      desc: "IDFC First Bank Mobile App is a secure digital banking platform offering services such as account management, fund transfers, bill payments, credit card management, and other financial features for millions of users.",
+      role: "Worked on building the customer service flow to report the dispute or fraudulent transaction from the app itself and made the flow automated using various APIs and saved the huge cost of the bak which was spent on manual processes to track the issues",
+      tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript", "unit testing", "jest"],
+      android_url: "https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus&hl=en_IN",
+      ios_url: "https://apps.apple.com/in/app/idfc-first-bank-mobilebanking/id1521443352",
     },
     {
-      title: "tonik Bank",
-      desc: "FinTech money transfer platform. Built full-stack features with Node.js, GraphQL, React Native, and integrated end-to-end tests using Detox.",
+      title: "Tonik Bank",
+      desc: "Tonik Bank is a digital-only neobank that provides mobile-first banking services such as savings accounts, time deposits, payments, and financial management tools. The app focuses on delivering a seamless, secure, and fully digital banking experience for customers without the need for physical branches.",
+      role: "Worked on enhancing the version of react native to the latest and updated all the modules according to the newer version and fixed various bugs and crashes from the app to make the app stable for production release",
+      tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript"],
+      android_url: "https://play.google.com/store/apps/details?id=com.tonik.mobile&hl=en_IN",
+      ios_url: "https://apps.apple.com/ph/app/tonik-bank-loans-deposits/id1541576007",
     },
     {
       title: "Ferns N Petals",
-      desc: "Handled mobile development for India’s top gifting platform. Built features, fixed critical issues, and led a 10-engineer team.",
+      desc: "Ferns N Petals UAE is a mobile application for the UAE branch of the popular floral and gifting brand. The app allows users to browse and order flowers, gifts, cakes, and personalized items with convenient delivery options. It emphasizes a seamless shopping experience, real-time order tracking, and secure payments.",
+      role: "I worked on multiple features of the app including selecting the specific country while placing the order, adding gifts in checklist, its quantity and final calculated value including shipping and all. Also worked on currency conversion and adding the addrerssing for shipping. ",
+      tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript",],
+      android_url: "https://play.google.com/store/apps/details?id=ae.fnp&hl=en_IN",
+      ios_url: "https://apps.apple.com/ae/app/fnp-flowers-gifts-delivery/id1274924764",
     },
     {
-      title: "weatherman App",
-      desc: "Built byte-sized insurance purchase experience with full identity verification using custom camera/KYC tools.",
+      title: "HelloBible",
+      desc: "HelloBible is a mobile application designed to provide users with easy access to the Bible, devotional content, and related audio-visual resources. The app focuses on delivering an interactive and user-friendly experience, including features like scripture reading, audio playback, and personalized devotional plans.",
+      role: "I worked on feature to chat with AI and convert the text to speech using advanced AI models to generate human-like responses and audio",
+      tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript"],
+      android_url: "https://apps.apple.com/us/app/hellobible-bible-chat/id6502768944",
+      ios_url: "https://play.google.com/store/apps/details?id=com.hellobible.app&hl=en_IN",
+    },
+    {
+      title: "TopMusic",
+      desc: "TopMusic is a mobile application designed to provide users with access to a wide range of music, playlists, and audio content. The app emphasizes personalized recommendations, smooth streaming, and an engaging user experience for music lovers.",
+      role: "Worked on fixing the critical bugs and crashes from the app and improved the performance of the app by optimizing various components and implemented the new design for the app to make it more user-friendly",
+      tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript"],
+      android_url: "https://play.google.com/store/apps/details?id=com.topchretien.topmusic&hl=en_IN",
+      ios_url: "",
     },
   ];
 
@@ -171,9 +195,56 @@ export default function Home() {
                 className="p-6 bg-white dark:bg-zinc-800 rounded-xl shadow-md hover:shadow-lg transition"
               >
                 <h3 className="text-xl font-semibold mb-2">{proj.title}</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
+                <p className="text-sm text-gray-600 dark:text-gray-300 mb-3">
                   {proj.desc}
                 </p>
+                <div className="mb-4 p-3 bg-indigo-50 dark:bg-indigo-900/30 rounded-lg border-l-4 border-indigo-500">
+                  <p className="text-xs font-semibold text-indigo-700 dark:text-indigo-300 mb-1">
+                    💼 My Role:
+                  </p>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">
+                    {proj.role}
+                  </p>
+                </div>
+                {proj.tech_stacks && proj.tech_stacks.length > 0 && (
+                  <div className="mb-4">
+                    <p className="text-xs font-semibold text-gray-600 dark:text-gray-400 mb-2">
+                      🛠️ Tech Stack:
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {proj.tech_stacks.map((tech) => (
+                        <span
+                          key={tech}
+                          className="bg-gray-100 dark:bg-zinc-700 text-gray-700 dark:text-gray-300 px-2 py-1 text-xs rounded-md"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                <div className="flex gap-3">
+                  {proj.android_url && (
+                    <a
+                      href={proj.android_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm bg-green-600 text-white px-3 py-1.5 rounded hover:bg-green-700 transition"
+                    >
+                      📱 Android
+                    </a>
+                  )}
+                  {proj.ios_url && (
+                    <a
+                      href={proj.ios_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm bg-blue-600 text-white px-3 py-1.5 rounded hover:bg-blue-700 transition"
+                    >
+                      🍎 iOS
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>
