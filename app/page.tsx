@@ -104,7 +104,7 @@ export default function Home() {
             Hi, I&apos;m Manpreet 👋
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            🚀 Expert React Native Developer | 8+ Years of Experience |
+            🚀 Expert React Native Developer | AI Expert | 9+ Years of Experience |
             Full-stack Architect | TVOS Specialist
           </p>
           <div className="flex justify-center gap-4">
