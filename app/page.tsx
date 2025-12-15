@@ -23,6 +23,7 @@ export default function Home() {
       desc: "IDFC First Bank Mobile App is a secure digital banking platform offering services such as account management, fund transfers, bill payments, credit card management, and other financial features for millions of users.",
       role: "Worked on building the customer service flow to report the dispute or fraudulent transaction from the app itself and made the flow automated using various APIs and saved the huge cost of the bak which was spent on manual processes to track the issues",
       tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript", "unit testing", "jest"],
+      challenges: ["Integrating with legacy banking systems", "Ensuring high security and compliance", "following the standards of banking apps",],
       android_url: "https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus&hl=en_IN",
       ios_url: "https://apps.apple.com/in/app/idfc-first-bank-mobilebanking/id1521443352",
     },
@@ -31,6 +32,7 @@ export default function Home() {
       desc: "Tonik Bank is a digital-only neobank that provides mobile-first banking services such as savings accounts, time deposits, payments, and financial management tools. The app focuses on delivering a seamless, secure, and fully digital banking experience for customers without the need for physical branches.",
       role: "Worked on enhancing the version of react native to the latest and updated all the modules according to the newer version and fixed various bugs and crashes from the app to make the app stable for production release",
       tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript"],
+      challenges: ["To make the changes in native customise libraries for security purpose to make them compatible with react native ", "Debugging issues and finding the solutions manually", "go through the complex flows of banking app to find the root cause of the issues without breaking any existing functionality"],
       android_url: "https://play.google.com/store/apps/details?id=com.tonik.mobile&hl=en_IN",
       ios_url: "https://apps.apple.com/ph/app/tonik-bank-loans-deposits/id1541576007",
     },
@@ -39,6 +41,7 @@ export default function Home() {
       desc: "Ferns N Petals UAE is a mobile application for the UAE branch of the popular floral and gifting brand. The app allows users to browse and order flowers, gifts, cakes, and personalized items with convenient delivery options. It emphasizes a seamless shopping experience, real-time order tracking, and secure payments.",
       role: "I worked on multiple features of the app including selecting the specific country while placing the order, adding gifts in checklist, its quantity and final calculated value including shipping and all. Also worked on currency conversion and adding the addrerssing for shipping. ",
       tech_stacks: ["React Native", "Redux", "TypeScript", "JavaScript",],
+      challenges: ["since this was my first e-commerce app , I faced issues creating new flows and their complex logics", "handling multiple currencies and their conversions", "working with 3rd party libraries for payments and shipping integrations"],
       android_url: "https://play.google.com/store/apps/details?id=ae.fnp&hl=en_IN",
       ios_url: "https://apps.apple.com/ae/app/fnp-flowers-gifts-delivery/id1274924764",
     },
@@ -46,7 +49,8 @@ export default function Home() {
       title: "HelloBible",
       desc: "HelloBible is a mobile application designed to provide users with easy access to the Bible, devotional content, and related audio-visual resources. The app focuses on delivering an interactive and user-friendly experience, including features like scripture reading, audio playback, and personalized devotional plans.",
       role: "I worked on feature to chat with AI and convert the text to speech using advanced AI models to generate human-like responses and audio",
-      tech_stacks: ["React Native", "Expo", "Redux", "TypeScript", "JavaScript"],
+      tech_stacks: ["React Native", "Expo", "Redux", "TypeScript", "JavaScript", "TanStack Query"],
+      challenges: ["Integrating advanced AI models for chat and text-to-speech", "Optimizing performance for audio playback", "Ensuring a seamless user experience across devices"],
       android_url: "https://apps.apple.com/us/app/hellobible-bible-chat/id6502768944",
       ios_url: "https://play.google.com/store/apps/details?id=com.hellobible.app&hl=en_IN",
     },
@@ -54,7 +58,8 @@ export default function Home() {
       title: "TopMusic",
       desc: "TopMusic is a mobile application designed to provide users with access to a wide range of music, playlists, and audio content. The app emphasizes personalized recommendations, smooth streaming, and an engaging user experience for music lovers.",
       role: "Worked on fixing the critical bugs and crashes from the app and improved the performance of the app by optimizing various components and implemented the new design for the app to make it more user-friendly",
-      tech_stacks: ["React Native", "Expo", "Redux", "TypeScript", "JavaScript"],
+      tech_stacks: ["React Native", "Expo", "Redux", "TypeScript", "JavaScript", "TanStack Query"],
+      challenges: ["Debugging and resolving critical bugs and crashes", "Optimizing performance for smoother streaming", "understanding complex code and make the changes accordinly without breaking existing functionality",],
       android_url: "https://play.google.com/store/apps/details?id=com.topchretien.topmusic&hl=en_IN",
       ios_url: "",
     },
@@ -221,6 +226,21 @@ export default function Home() {
                         </span>
                       ))}
                     </div>
+                  </div>
+                )}
+                {(proj.challenges || proj.challenges) && (proj.challenges?.length > 0 || proj.challenges?.length > 0) && (
+                  <div className="mb-4 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border-l-4 border-amber-500">
+                    <p className="text-xs font-semibold text-amber-700 dark:text-amber-300 mb-2">
+                      ⚡ Challenges Overcome:
+                    </p>
+                    <ul className="space-y-1">
+                      {(proj.challenges || proj.challenges)?.map((challenge, idx) => (
+                        <li key={idx} className="text-xs text-gray-700 dark:text-gray-300 flex items-start gap-2">
+                          <span className="text-amber-600 dark:text-amber-400 mt-0.5">•</span>
+                          <span>{challenge}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 )}
                 <div className="flex gap-3">
