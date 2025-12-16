@@ -114,7 +114,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <Link
-              href="/Manpreet_Singh_Resume_2025.pdf"
+              href="/Manpreet_Singh_Resume_2025DEC.pdf"
               className="bg-indigo-600 text-white px-5 py-2 rounded hover:bg-indigo-700 transition"
             >
               📄 Download Resume
