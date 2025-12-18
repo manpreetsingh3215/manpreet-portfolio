@@ -109,8 +109,8 @@ export default function Home() {
             Hi, I&apos;m Manpreet 👋
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            🚀 Expert React Native Developer | AI Expert | 9+ Years of Experience |
-            Full-stack Architect | TVOS Specialist
+            Expert React Native Developer | AI Expert | 9+ Years of Experience |
+            Full-stack Architect
           </p>
           <div className="flex justify-center gap-4">
             <Link
@@ -131,7 +131,7 @@ export default function Home() {
         {/* About */}
         <section id="about">
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <div className="prose dark:prose-invert max-w-none text-lg">
+          <div className="prose dark:prose-invert max-w-none text-lg space-y-4">
             <p>
               👋 I&apos;m a passionate and experienced mobile engineer
               specializing in <strong>React Native</strong>,{" "}
@@ -141,18 +141,29 @@ export default function Home() {
               8+ years building mobile-first experiences, I create sleek,
               scalable, and high-performance apps users love.
             </p>
+
             <p>
               🛠️ I&apos;ve led and built production-grade solutions across
               FinTech, Healthcare, E-commerce, IoT, and Streaming. From custom
               DRM-based KYC tools to Smart TV integrations, I blend deep
               technical skill with business strategy to drive results.
             </p>
+
             <p>
               🚀 I&apos;ve worked with startups and global enterprises
               alike—delivering polished products from scratch or helping scale
               existing systems. I believe in ownership, automation, test-driven
               development, and delivering impact, not just code.
             </p>
+
+            <p>
+              🤖 I&apos;m also skilled in <strong>AI-driven development</strong>,
+              designing structured, step-by-step prompts to guide AI tools for
+              component architecture, performance optimization, and edge-case
+              handling in software development. This approach helps me build
+              smarter, faster, and more maintainable solutions.
+            </p>
+
             <p>
               💬 Let&rsquo;s collaborate if you&rsquo;re building something
               exciting — I love helping products go from idea 💡 to shipped 🚀.
