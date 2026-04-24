@@ -148,7 +148,7 @@ export default function Home() {
         >
           <div className="flex justify-center">
             <Image
-              src="/profile-pic.png"
+              src="/profile-pic_1.png"
               alt="Manpreet Singh"
               width={128}
               height={128}
