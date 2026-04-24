@@ -159,8 +159,8 @@ export default function Home() {
             Hi, I&apos;m Manpreet 👋
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Expert React Native Developer | AI Expert | 9+ Years of Experience |
-            Full-stack Architect
+            Senior React Native AI Developer | AI Integrations | Expo | React JS
+            | Voice & LLM Systems
           </p>
           <div className="flex justify-center gap-4">
             <Link
@@ -182,72 +182,275 @@ export default function Home() {
         <section id="about">
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
           <div className="prose dark:prose-invert max-w-none text-lg space-y-4">
+            <div className="flex flex-wrap gap-4 text-sm mb-6 pb-4 border-b border-gray-300 dark:border-zinc-700">
+              <span>
+                📧{" "}
+                <a
+                  href="mailto:preetrana883@gmail.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  preetrana883@gmail.com
+                </a>
+              </span>
+              <span>📞 +91 9478133303</span>
+              <span>
+                🔗{" "}
+                <a
+                  href="https://www.linkedin.com/in/manpreet-singh-37467556/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  LinkedIn
+                </a>
+              </span>
+            </div>
+
+            <h3 className="text-xl font-semibold text-indigo-600 dark:text-indigo-400">
+              Executive Summary
+            </h3>
             <p>
-              👋 I&apos;m a passionate and experienced mobile engineer
-              specializing in <strong>React Native</strong>,{" "}
-              <strong>Expo</strong>, and{" "}
-              <strong>cross-platform development</strong> for iOS, Android, and
-              Smart TV (tvOS). With over <strong>9 years in tech</strong> and 8+
-              years building mobile-first experiences, I create sleek, scalable,
-              and high-performance apps users love.
+              Senior Mobile Engineer with 9+ years of experience building,
+              scaling, and modernizing high-impact mobile and tvOS applications
+              across fintech, banking, e-commerce, and healthcare domains.
+              Strong expertise in React Native architecture, performance
+              optimization, and delivering production-ready applications used by
+              millions of users.
             </p>
 
             <p>
-              🛠️ I&apos;ve led and built production-grade solutions across
-              FinTech, Healthcare, E-commerce, IoT, and Streaming. From custom
-              DRM-based KYC tools to Smart TV integrations, I blend deep
-              technical skill with business strategy to drive results.
+              Experienced in integrating AI/LLM systems into mobile applications
+              including voice-to-LLM pipelines, real-time audio streaming, and
+              AI-driven chat experiences. Skilled in working with OpenAI,
+              Claude, and other LLM APIs with focus on latency optimization,
+              guardrails, and production-grade logging.
             </p>
 
-            <p>
-              🚀 I&apos;ve worked with startups and global enterprises
-              alike—delivering polished products from scratch or helping scale
-              existing systems. I believe in ownership, automation, test-driven
-              development, and delivering impact, not just code.
-            </p>
+            <h3 className="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mt-6">
+              Core Competencies
+            </h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  Mobile & Web Platforms
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  React Native, Expo, Android, iOS, React.js, tvOS
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  Languages
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  TypeScript, JavaScript, Python (Basic)
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  State & Data Management
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Redux, TanStack Query, Context API, REST APIs
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  Architecture & Quality
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Modular Architecture, Scalable Design, Performance
+                  Optimization, Unit Testing (Jest)
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  Native & Real-Time Media
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Custom Native Modules, WebRTC, AudioRTC, Bluetooth Audio,
+                  Real-time PCM Streaming
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  CI/CD & Release
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  GitHub Actions, TestFlight, Play Store, Firebase, CodePush,
+                  EAS Builds
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  AI & LLM Integration
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  LLM APIs, Voice-to-LLM pipelines, Real-time streaming, Prompt
+                  engineering, Token optimization
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                  Backend & Services
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Firebase, fastAPI (Basic), Third-party SDK Integrations
+                </p>
+              </div>
+            </div>
 
-            <p>
-              🤖 I&apos;m also skilled in <strong>AI-driven development</strong>
-              , designing structured, step-by-step prompts to guide AI tools for
-              component architecture, performance optimization, and edge-case
-              handling in software development. This approach helps me build
-              smarter, faster, and more maintainable solutions.
-            </p>
-
-            <p>
-              💬 Let&rsquo;s collaborate if you&rsquo;re building something
-              exciting — I love helping products go from idea 💡 to shipped 🚀.
-            </p>
+            <h3 className="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mt-6">
+              Key Achievements
+            </h3>
+            <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
+              <li>
+                Delivered mobile applications used by millions of users globally
+              </li>
+              <li>
+                Built real-time voice-to-LLM pipeline with interruption handling
+                (GPT-style streaming)
+              </li>
+              <li>
+                Implemented low-latency AI conversational systems using WebRTC &
+                PCM streaming
+              </li>
+              <li>
+                Designed production-grade logging & monitoring for AI pipelines
+              </li>
+              <li>Reduced operational costs through workflow automation</li>
+              <li>
+                Modernized legacy React Native codebases without disruption
+              </li>
+              <li>
+                Developed AI-powered audio interaction systems with TTS/STT
+                integration
+              </li>
+              <li>
+                Built high-performance custom native audio libraries supporting
+                multiple streams
+              </li>
+              <li>Mentored developers and conducted code reviews</li>
+              <li>
+                Implemented analytics and crash monitoring (Firebase
+                Crashlytics, Adobe Analytics)
+              </li>
+            </ul>
           </div>
         </section>
 
         {/* Tech Stack */}
         <section id="tech">
           <h2 className="text-3xl font-bold mb-4">Tech Stack</h2>
-          <div className="flex flex-wrap gap-3">
-            {[
-              "React Native",
-              "Expo",
-              "Redux",
-              "Zustand",
-              "GraphQL",
-              "Firebase",
-              "Node.js",
-              "TypeScript",
-              "Tailwind CSS",
-              "Fastlane",
-              "Detox",
-              "Docker",
-              "Git",
-              "MongoDB",
-            ].map((tech) => (
-              <span
-                key={tech}
-                className="bg-zinc-100 dark:bg-zinc-700 px-4 py-1 text-sm rounded-full shadow"
-              >
-                {tech}
-              </span>
-            ))}
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-indigo-600 dark:text-indigo-400">
+                Platforms & Frameworks
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "React Native",
+                  "Expo",
+                  "React.js",
+                  "iOS",
+                  "Android",
+                  "tvOS",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-indigo-100 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 px-3 py-1 text-sm rounded-full"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-indigo-600 dark:text-indigo-400">
+                State Management & Data
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "Redux",
+                  "TanStack Query",
+                  "Context API",
+                  "REST APIs",
+                  "GraphQL",
+                  "Firebase",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 px-3 py-1 text-sm rounded-full"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-indigo-600 dark:text-indigo-400">
+                Languages
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {["TypeScript", "JavaScript", "Python"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300 px-3 py-1 text-sm rounded-full"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-indigo-600 dark:text-indigo-400">
+                Tools & DevOps
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "GitHub",
+                  "Bitbucket",
+                  "GitLab",
+                  "GitHub Actions",
+                  "TestFlight",
+                  "Play Store",
+                  "EAS Builds",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300 px-3 py-1 text-sm rounded-full"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="md:col-span-2">
+              <h3 className="text-lg font-semibold mb-3 text-indigo-600 dark:text-indigo-400">
+                AI & Real-Time Systems
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "OpenAI",
+                  "Claude",
+                  "LLM APIs",
+                  "Voice-to-LLM",
+                  "WebRTC",
+                  "PCM Streaming",
+                  "TTS/STT",
+                  "Real-time Audio",
+                  "Bluetooth Audio",
+                  "AudioRTC",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-300 px-3 py-1 text-sm rounded-full"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
@@ -342,40 +545,75 @@ export default function Home() {
 
         {/* Contact */}
         <section id="contact">
-          <h2 className="text-3xl font-bold mb-4">Contact</h2>
-          <p className="text-lg">
-            📬 Email me at{" "}
-            <a
-              className="underline text-blue-500"
-              href="mailto:preetrana883@gmail.com"
-            >
-              preetrana883@gmail.com
-            </a>
-            <br />
-            🔗 Connect on{" "}
-            <a
-              className="underline text-blue-500"
-              href="https://www.linkedin.com/in/manpreet-singh-37467556/"
-            >
-              LinkedIn
-            </a>
-            <br />
-            💻 Check out my{" "}
-            <a
-              className="underline text-blue-500"
-              href="https://github.com/manpreetsingh3215"
-            >
-              GitHub
-            </a>
-            <br />
-            🧠 See my answers on{" "}
-            <a
-              className="underline text-blue-500"
-              href="https://stackoverflow.com/users/8344220/manpreet-singh"
-            >
-              Stack Overflow
-            </a>
-          </p>
+          <h2 className="text-3xl font-bold mb-4">Contact & Connect</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <p className="text-lg">
+                📧 Email:
+                <a
+                  className="underline text-blue-500 hover:text-blue-700 ml-2"
+                  href="mailto:preetrana883@gmail.com"
+                >
+                  preetrana883@gmail.com
+                </a>
+              </p>
+              <p className="text-lg">
+                📞 Phone:
+                <a
+                  className="underline text-blue-500 hover:text-blue-700 ml-2"
+                  href="tel:+919478133303"
+                >
+                  +91 9478133303
+                </a>
+              </p>
+              <p className="text-lg">
+                🔗 Portfolio:
+                <a
+                  className="underline text-blue-500 hover:text-blue-700 ml-2"
+                  href="https://manpreet-portfolio-ruby.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  manpreet-portfolio-ruby.vercel.app
+                </a>
+              </p>
+            </div>
+            <div className="space-y-3">
+              <p className="text-lg">
+                💼 LinkedIn:
+                <a
+                  className="underline text-blue-500 hover:text-blue-700 ml-2"
+                  href="https://www.linkedin.com/in/manpreet-singh-37467556/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Connect with me
+                </a>
+              </p>
+              <p className="text-lg">
+                💻 GitHub:
+                <a
+                  className="underline text-blue-500 hover:text-blue-700 ml-2"
+                  href="https://github.com/manpreetsingh3215"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View my projects
+                </a>
+              </p>
+              <p className="text-lg">
+                🧠 Stack Overflow:
+                <a
+                  className="underline text-blue-500 hover:text-blue-700 ml-2"
+                  href="https://stackoverflow.com/users/8344220/manpreet-singh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  My answers
+                </a>
+              </p>
+            </div>
+          </div>
         </section>
       </main>
 
