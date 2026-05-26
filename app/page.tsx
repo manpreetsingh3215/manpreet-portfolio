@@ -31,7 +31,7 @@ type Project = {
   links?: ProjectLink[];
 };
 
-const resumePath = "/Manpreet-Singh-Senior-Frontend-Engineer-2026.pdf";
+const resumePath = "/ResumeManpreetSeniorFrontendEngineer.pdf";
 
 const skillGroups: SkillGroup[] = [
   {
@@ -357,7 +357,7 @@ export default function Home() {
         >
           <div className="flex justify-center">
             <Image
-              src="/profile-pic.png"
+              src="/profile-pic1.png"
               alt="Manpreet Singh"
               width={128}
               height={128}
@@ -538,7 +538,9 @@ export default function Home() {
                 key={achievement}
                 className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/60"
               >
-                <p className="text-gray-700 dark:text-gray-300">{achievement}</p>
+                <p className="text-gray-700 dark:text-gray-300">
+                  {achievement}
+                </p>
               </div>
             ))}
           </div>
