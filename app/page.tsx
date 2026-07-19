@@ -31,7 +31,7 @@ type Project = {
   links?: ProjectLink[];
 };
 
-const resumePath = "/ResumeManpreetSeniorFrontendEngineer.pdf";
+const resumePath = "/Manpreet-Singh-Senior-Mobile-Frontend-Engineer.pdf";
 
 const skillGroups: SkillGroup[] = [
   {
@@ -45,6 +45,8 @@ const skillGroups: SkillGroup[] = [
       "JavaScript (ES6+)",
       "HTML5",
       "CSS3",
+      "Tailwind CSS",
+      "Material UI",
     ],
   },
   {
@@ -85,6 +87,7 @@ const skillGroups: SkillGroup[] = [
     title: "Testing & Quality",
     items: [
       "Jest",
+      "React Testing Library",
       "Detox",
       "Unit Testing",
       "Debugging",
@@ -106,13 +109,14 @@ const skillGroups: SkillGroup[] = [
       "Bitbucket",
       "Cursor",
       "Copilot",
+      "Azure",
     ],
   },
 ];
 
 const achievements = [
   "Delivered enterprise mobile and web applications used by millions of users globally.",
-  "Led modernization of large React Native codebases while preserving production stability.",
+  "Led modernization of large React and React Native codebases while maintaining production stability.",
   "Reduced technical debt through reusable component systems and scalable frontend architecture.",
   "Improved application performance, responsiveness, and production reliability across enterprise platforms.",
   "Built AI-powered conversational systems with real-time voice and streaming capabilities.",
@@ -122,63 +126,63 @@ const achievements = [
 
 const experience: ExperienceItem[] = [
   {
-    title: "Senior Frontend Engineer (React Native & React.js)",
-    company: "Freelancing & Enterprise Projects",
+    title: "Senior Mobile & Frontend Engineer",
+    company: "Freelancer",
     duration: "Sept 2025 - Present",
     summary:
-      "Leading frontend architecture and development of scalable AI-powered mobile and web applications using React Native, React.js, and TypeScript.",
+      "Leading frontend architecture and development of scalable AI-powered mobile and web applications using React Native, React.js, Next.js, and TypeScript.",
     highlights: [
-      "Integrated OpenAI and Claude APIs to build conversational AI systems with streaming responses and workflow automation.",
-      "Implemented STT/TTS pipelines and WebRTC-based communication for low-latency voice interactions.",
-      "Introduced reusable component systems and modular architecture to improve maintainability and scalability.",
-      "Optimized rendering performance, responsiveness, and production stability across large-scale projects.",
+      "Integrated OpenAI and Claude APIs to build conversational AI systems with streaming responses and intelligent workflow automation.",
+      "Implemented STT/TTS pipelines and WebRTC-based real-time communication systems for low-latency voice interactions.",
+      "Introduced reusable component systems and modular architecture to improve maintainability and frontend scalability.",
+      "Optimized rendering performance, application responsiveness, and production stability across large-scale projects.",
     ],
   },
   {
-    title: "Senior Consultant (React Native & React.js)",
-    company: "Xebia India, Gurgaon",
+    title: "Senior Consultant",
+    company: "Xebia IT Architects",
     duration: "Sept 2021 - Sept 2025",
     summary:
-      "Led frontend delivery for enterprise fintech and banking platforms built with React Native and React.js.",
+      "Led frontend development and delivery of enterprise fintech and banking platforms using React Native and React.js.",
     highlights: [
-      "Designed scalable frontend architecture and reusable UI systems for faster delivery and easier maintenance.",
-      "Modernized legacy React Native applications and improved large-scale codebases.",
-      "Resolved critical production issues including crashes, memory leaks, and rendering bottlenecks.",
-      "Conducted code reviews, mentored developers, and helped define frontend engineering standards.",
+      "Designed scalable frontend architecture and reusable UI systems to improve engineering scalability and maintainability.",
+      "Modernized legacy web and mobile applications and contributed to large-scale codebase improvements.",
+      "Resolved critical production issues including memory leaks, rendering bottlenecks, application crashes, and performance degradation.",
+      "Conducted code reviews, mentored developers, and contributed to frontend engineering standards and best practices.",
     ],
   },
   {
-    title: "Software Developer",
-    company: "Freelancing",
-    duration: "Apr 2019 - Sept 2021",
+    title: "Senior Frontend & Mobile Engineer",
+    company: "Parkulus Solutions",
+    duration: "May 2019 - Sept 2021",
     summary:
-      "Developed and maintained scalable mobile and web applications across fintech, e-commerce, and media platforms.",
+      "Developed and maintained scalable mobile and web applications across healthcare, e-commerce, and media platforms.",
     highlights: [
       "Integrated payment gateways, analytics systems, push notifications, and third-party SDKs.",
-      "Built reusable UI components and optimized rendering performance in React Native apps.",
-      "Collaborated directly with clients and cross-functional teams to deliver production-ready solutions.",
+      "Built reusable UI components and optimized rendering performance across applications.",
+      "Collaborated with clients and cross-functional teams to deliver production-ready applications.",
     ],
   },
   {
-    title: "Software Developer",
-    company: "Mobilyte Solutions, Mohali",
-    duration: "June 2018 - Apr 2019",
+    title: "Software Engineer 2",
+    company: "Mobilyte Solutions Pvt Ltd, Mohali",
+    duration: "July 2018 - May 2019",
     summary:
-      "Built and maintained React Native mobile applications with a strong focus on responsive UI development and performance.",
+      "Built and maintained mobile and web applications with a focus on responsive UI development and application performance.",
     highlights: [
-      "Integrated REST APIs and shipped scalable frontend features.",
-      "Improved app responsiveness and resolved production issues across Android and iOS.",
+      "Integrated REST APIs and implemented scalable frontend features.",
+      "Improved application responsiveness and resolved production issues across Android and iOS platforms.",
     ],
   },
   {
-    title: "Junior Software Developer",
-    company: "Igniva Infotech, Mohali",
+    title: "Junior Software Engineer",
+    company: "Igniva Solutions, Mohali",
     duration: "Mar 2017 - June 2018",
     summary:
-      "Contributed to React Native application development, feature delivery, and production bug fixing.",
+      "Contributed to React Native mobile application development, feature implementation, and production bug fixing.",
     highlights: [
-      "Improved UI consistency, application quality, and user experience.",
-      "Worked closely with senior developers on feature delivery and app maintenance.",
+      "Assisted in improving application quality, UI consistency, and user experience.",
+      "Worked closely with senior developers on frontend feature delivery and application maintenance.",
     ],
   },
 ];
@@ -186,13 +190,14 @@ const experience: ExperienceItem[] = [
 const projects: Project[] = [
   {
     title: "IDFC First Bank",
-    role: "Senior Frontend Engineer",
+    role: "Senior Mobile & Frontend Engineer",
     summary:
-      "Delivered secure mobile banking experiences spanning payments, account management, transfers, and dispute workflows for a large-scale enterprise platform.",
+      "Delivered secure mobile and web banking features spanning payments, account management, transfers, and dispute management workflows for a large-scale enterprise platform.",
     techStack: ["React Native", "React.js", "TypeScript"],
     highlights: [
-      "Built dispute and fraud reporting workflows inside the mobile app with secure API integrations.",
-      "Supported internal workflow automation that reduced manual operational effort.",
+      "Automated the customer support process to reduce operational costs for the organisation.",
+      "Built scalable internal workflow automation systems through secure API integrations.",
+      "Contributed to secure and scalable frontend architecture for enterprise banking platforms.",
       "Improved responsiveness and production reliability across critical banking journeys.",
     ],
     links: [
@@ -204,6 +209,19 @@ const projects: Project[] = [
         label: "iOS",
         href: "https://apps.apple.com/in/app/idfc-first-bank-mobilebanking/id1521443352",
       },
+    ],
+  },
+  {
+    title: "R-DEE",
+    role: "Senior Frontend & Mobile Engineer",
+    summary:
+      "Built responsive web interfaces and cross-platform mobile applications for healthcare providers and patients, covering records, documents, and workflow automation.",
+    techStack: ["React.js", "React Native"],
+    highlights: [
+      "Built secure authentication and authorization flows, including role-based access control for protected healthcare data.",
+      "Integrated RESTful APIs for patient records, provider management, document sharing, and notifications.",
+      "Implemented patient profile management, health record viewing, document upload/download, and consent management workflows.",
+      "Optimized performance for large healthcare datasets and real-time updates while meeting compliance requirements.",
     ],
   },
   {
@@ -233,7 +251,7 @@ const projects: Project[] = [
     role: "Senior Frontend Engineer",
     summary:
       "Developed scalable healthcare workflow modules, operational dashboards, and role-based experiences for a healthcare platform.",
-    techStack: ["React.js", "TypeScript"],
+    techStack: ["Next.js", "React.js", "TypeScript"],
     highlights: [
       "Built workflow automation tools and billing-related frontend systems.",
       "Improved operational efficiency through centralized healthcare workflow management.",
@@ -313,7 +331,7 @@ const quickHighlights = [
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Manpreet Singh | Senior Frontend Engineer";
+    document.title = "Manpreet Singh | Senior Mobile & Frontend Engineer";
   }, []);
 
   const scrollToContact = () => {
@@ -368,9 +386,9 @@ export default function Home() {
             Hi, I&apos;m Manpreet
           </h1>
           <p className="mx-auto max-w-3xl text-lg text-gray-600 dark:text-gray-400 md:text-xl">
-            Senior Frontend Engineer focused on React Native, React.js, Next.js,
-            AI integrations, WebRTC, and cross-platform application
-            architecture.
+            Senior Mobile & Frontend Engineer focused on React Native, Expo,
+            React.js, Next.js, AI/LLM integrations, WebRTC, and cross-platform
+            application architecture.
           </p>
           <p className="mx-auto max-w-3xl text-base text-gray-600 dark:text-gray-400">
             I build and modernize production-grade mobile and web products
@@ -445,10 +463,11 @@ export default function Home() {
 
             <div className="space-y-4 text-lg text-gray-700 dark:text-gray-300">
               <p>
-                Senior Frontend Engineer with 9+ years of experience building
-                scalable mobile and web applications using React Native,
-                React.js, Next.js, and TypeScript across fintech, banking,
-                healthcare, AI, e-commerce, and enterprise platforms.
+                Senior Mobile & Frontend Engineer with 9+ years of experience
+                building high-performance mobile and web applications using
+                React Native, Expo, React.js, Next.js, JavaScript, and
+                TypeScript across fintech, banking, healthcare, e-commerce, and
+                AI-driven platforms.
               </p>
               <p>
                 I specialize in frontend architecture, cross-platform
@@ -612,13 +631,13 @@ export default function Home() {
           <h2 className="mb-4 text-3xl font-bold">Education</h2>
           <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/60">
             <h3 className="text-xl font-semibold">
-              Bachelor of Engineering in Electronics & Communication
+              B.Tech / B.E. in Electronics and Telecommunication Engineering
             </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
-              Chitkara University, Himachal Pradesh
+              Chitkara University, Patiala
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              2011 - 2015
+              2015 &middot; Grade 7.18/10
             </p>
           </div>
         </section>
