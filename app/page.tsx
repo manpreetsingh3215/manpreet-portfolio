@@ -212,19 +212,6 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "R-DEE",
-    role: "Senior Frontend & Mobile Engineer",
-    summary:
-      "Built responsive web interfaces and cross-platform mobile applications for healthcare providers and patients, covering records, documents, and workflow automation.",
-    techStack: ["React.js", "React Native"],
-    highlights: [
-      "Built secure authentication and authorization flows, including role-based access control for protected healthcare data.",
-      "Integrated RESTful APIs for patient records, provider management, document sharing, and notifications.",
-      "Implemented patient profile management, health record viewing, document upload/download, and consent management workflows.",
-      "Optimized performance for large healthcare datasets and real-time updates while meeting compliance requirements.",
-    ],
-  },
-  {
     title: "HelloBible",
     role: "Senior React Native Engineer",
     summary:
@@ -244,6 +231,39 @@ const projects: Project[] = [
         label: "iOS",
         href: "https://apps.apple.com/us/app/hellobible-bible-chat/id6502768944",
       },
+    ],
+  },
+  {
+    title: "Future Sportler",
+    role: "Senior Mobile & Frontend Engineer",
+    summary:
+      "Sports networking and community platform (web and mobile) where athletes, coaches, and sports enthusiasts connect, discover opportunities, and engage through a mobile-first experience.",
+    techStack: ["React Native", "React.js", "TypeScript"],
+    highlights: [
+      "Improved application performance and responsiveness by optimizing rendering, navigation flows, and state management.",
+      "Architected scalable, reusable application modules for easier feature expansion and long-term maintainability.",
+      "Led technical improvements focused on application stability, code quality, and development best practices.",
+      "Collaborated cross-functionally to deliver production-ready features with high performance and reliability.",
+      "Mentored developers through code reviews and technical guidance on coding standards and scalable architecture.",
+    ],
+    links: [
+      {
+        label: "Android",
+        href: "https://play.google.com/store/apps/details?id=com.future_sportler&hl=en_IN",
+      },
+    ],
+  },
+  {
+    title: "R-DEE",
+    role: "Senior Frontend & Mobile Engineer",
+    summary:
+      "Built responsive web interfaces and cross-platform mobile applications for healthcare providers and patients, covering records, documents, and workflow automation.",
+    techStack: ["React.js", "React Native"],
+    highlights: [
+      "Built secure authentication and authorization flows, including role-based access control for protected healthcare data.",
+      "Integrated RESTful APIs for patient records, provider management, document sharing, and notifications.",
+      "Implemented patient profile management, health record viewing, document upload/download, and consent management workflows.",
+      "Optimized performance for large healthcare datasets and real-time updates while meeting compliance requirements.",
     ],
   },
   {
